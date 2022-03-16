@@ -1,0 +1,24 @@
+<html>
+  <head>
+    {{>header}}
+  </head>
+  <body>
+  <p> {{staffMember}}</p>
+  {{#moduleInfo}}
+  <div class="card">
+    <div class="card-body">
+          <h4 class="card-title">Module Information</h4>
+          <p class="card-text">
+              Name: {{name}} 
+          </p>
+          <p class="card-text">
+              Module Leader: {{moduleLeader}}
+          </p>
+          <p class="card-text">
+              Description: {{description}}
+          </p>
+    </div>
+  </div> 
+  {{/moduleInfo}}
+  </body>
+</html>
